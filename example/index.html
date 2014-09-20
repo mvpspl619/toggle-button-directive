@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="angularGruntSeed">
+
+<head>
+    <title>Toggle button directive</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container" ng-controller="homeController">
+        <p>Value in controller: {{switchedOn}}</p>
+        <toggle-button toggle-on-text="on" toggle-off-text="off" ng-model="switchedOn"></toggle-button>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../src/toggleButtonDirective.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/homeController.js"></script>
+
+</body>
+
+</html>
