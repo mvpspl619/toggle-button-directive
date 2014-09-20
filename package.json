@@ -1,14 +1,14 @@
 {
-    "name": "angular-grunt-seed",
-    "version": "0.0.1",
-    "description": "Angular seed project with Grunt and Bower ready.",
+    "name": "toggle-button-directive",
+    "version": "0.1.0",
+    "description": "Angular directive for toggle button",
     "authors": [
-        "Srinivas Kusunam <skusunam@gmail.com>"
+        "VenkatapathiRaju Mandapati<mvpspl619@gmail.com>"
     ],
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git@bitbucket.org:afterwork14/networkafterwork.git"
+        "url": ""
     },
     "scripts": {
         "postinstall": "node node_modules/bower/bin/bower install"
